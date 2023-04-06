@@ -54,3 +54,6 @@ Last hop before destination: 216.239.43.231 which is a class C.
 Destination: 23.33.17.164 is a class A
 Origin: 192.168.1.1 is class C
 Last hop before destination: 23.33.17.164 which is eploy.static.akamaitechnologies.com. A class A that I have not heard of.
+
+## Extra credit: Using packet-capture tools (2 pts)
+From this exercise I found a DHCP lease time for 90 days on a Mac device (I believe my laptop as I switched onto the network).
