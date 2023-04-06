@@ -1,0 +1,38 @@
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ ping www.microsoft.com
+PING e13678.dscb.akamaiedge.net (23.33.17.164): 56 data bytes
+64 bytes from 23.33.17.164: icmp_seq=0 ttl=50 time=21.317 ms
+64 bytes from 23.33.17.164: icmp_seq=1 ttl=50 time=25.673 ms
+64 bytes from 23.33.17.164: icmp_seq=2 ttl=50 time=22.549 ms
+64 bytes from 23.33.17.164: icmp_seq=3 ttl=50 time=23.742 ms
+64 bytes from 23.33.17.164: icmp_seq=4 ttl=50 time=32.454 ms
+64 bytes from 23.33.17.164: icmp_seq=5 ttl=50 time=28.951 ms
+^C
+--- e13678.dscb.akamaiedge.net ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 21.317/25.781/32.454/3.854 ms
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ ping www.microsoft.com
+PING e13678.dscb.akamaiedge.net (23.33.17.164): 56 data bytes
+64 bytes from 23.33.17.164: icmp_seq=0 ttl=50 time=21.211 ms
+64 bytes from 23.33.17.164: icmp_seq=1 ttl=50 time=25.981 ms
+64 bytes from 23.33.17.164: icmp_seq=2 ttl=50 time=26.831 ms
+64 bytes from 23.33.17.164: icmp_seq=3 ttl=50 time=29.219 ms
+64 bytes from 23.33.17.164: icmp_seq=4 ttl=50 time=27.119 ms
+64 bytes from 23.33.17.164: icmp_seq=5 ttl=50 time=20.560 ms
+^C
+--- e13678.dscb.akamaiedge.net ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 20.560/25.153/29.219/3.176 ms
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ ping www.microsoft.com
+PING e13678.dscb.akamaiedge.net (23.33.17.164): 56 data bytes
+64 bytes from 23.33.17.164: icmp_seq=0 ttl=50 time=20.749 ms
+64 bytes from 23.33.17.164: icmp_seq=1 ttl=50 time=27.063 ms
+64 bytes from 23.33.17.164: icmp_seq=2 ttl=50 time=27.653 ms
+64 bytes from 23.33.17.164: icmp_seq=3 ttl=50 time=27.160 ms
+64 bytes from 23.33.17.164: icmp_seq=4 ttl=50 time=27.050 ms
+64 bytes from 23.33.17.164: icmp_seq=5 ttl=50 time=28.815 ms
+64 bytes from 23.33.17.164: icmp_seq=6 ttl=50 time=28.774 ms
+^C
+--- e13678.dscb.akamaiedge.net ping statistics ---
+7 packets transmitted, 7 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 20.749/26.752/28.815/2.551 ms
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ 

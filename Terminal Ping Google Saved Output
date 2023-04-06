@@ -1,0 +1,36 @@
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ ping www.google.com
+PING www.google.com (142.251.211.228): 56 data bytes
+64 bytes from 142.251.211.228: icmp_seq=0 ttl=115 time=6.162 ms
+64 bytes from 142.251.211.228: icmp_seq=1 ttl=115 time=15.620 ms
+64 bytes from 142.251.211.228: icmp_seq=2 ttl=115 time=9.722 ms
+64 bytes from 142.251.211.228: icmp_seq=3 ttl=115 time=4.308 ms
+64 bytes from 142.251.211.228: icmp_seq=4 ttl=115 time=9.786 ms
+^C
+--- www.google.com ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 4.308/9.120/15.620/3.872 ms
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ ping www.google.com
+PING www.google.com (142.251.211.228): 56 data bytes
+64 bytes from 142.251.211.228: icmp_seq=0 ttl=115 time=9.281 ms
+64 bytes from 142.251.211.228: icmp_seq=1 ttl=115 time=3.383 ms
+64 bytes from 142.251.211.228: icmp_seq=2 ttl=115 time=8.831 ms
+64 bytes from 142.251.211.228: icmp_seq=3 ttl=115 time=9.262 ms
+64 bytes from 142.251.211.228: icmp_seq=4 ttl=115 time=9.255 ms
+64 bytes from 142.251.211.228: icmp_seq=5 ttl=115 time=9.112 ms
+^C
+--- www.google.com ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.383/8.187/9.281/2.154 ms
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ ping www.google.com
+PING www.google.com (142.251.211.228): 56 data bytes
+64 bytes from 142.251.211.228: icmp_seq=0 ttl=115 time=4.464 ms
+64 bytes from 142.251.211.228: icmp_seq=1 ttl=115 time=10.869 ms
+64 bytes from 142.251.211.228: icmp_seq=2 ttl=115 time=5.629 ms
+64 bytes from 142.251.211.228: icmp_seq=3 ttl=115 time=10.364 ms
+64 bytes from 142.251.211.228: icmp_seq=4 ttl=115 time=11.738 ms
+64 bytes from 142.251.211.228: icmp_seq=5 ttl=115 time=5.557 ms
+^C
+--- www.google.com ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 4.464/8.104/11.738/2.939 ms
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ 

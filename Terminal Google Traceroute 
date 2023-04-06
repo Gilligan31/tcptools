@@ -1,0 +1,22 @@
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ traceroute www.google.com
+traceroute to www.google.com (142.251.211.228), 64 hops max, 52 byte packets
+ 1  192.168.1.1 (192.168.1.1)  5.249 ms  1.868 ms  1.786 ms
+ 2  50.231.44.177 (50.231.44.177)  4.867 ms  2.884 ms  2.449 ms
+ 3  be-1-sur03.seattle.wa.seattle.comcast.net (69.139.164.134)  2.360 ms  2.296 ms  2.626 ms
+ 4  96.216.153.101 (96.216.153.101)  2.410 ms  8.323 ms  16.773 ms
+ 5  be-501-arsc1.seattle.wa.seattle.comcast.net (24.124.128.121)  3.142 ms  3.703 ms  3.155 ms
+ 6  50.222.176.218 (50.222.176.218)  3.192 ms
+    50.222.176.214 (50.222.176.214)  3.450 ms
+    50.218.57.26 (50.218.57.26)  4.779 ms
+ 7  * * *
+ 8  108.170.245.97 (108.170.245.97)  4.047 ms  4.221 ms  4.103 ms
+ 9  108.170.245.107 (108.170.245.107)  14.501 ms
+    sea30s13-in-f4.1e100.net (142.251.211.228)  4.559 ms
+    216.239.43.231 (216.239.43.231)  3.386 ms
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ 
+
+
+
+
+
+
