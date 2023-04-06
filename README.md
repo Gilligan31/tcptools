@@ -22,3 +22,35 @@ There was 0 total packets lost - I must have a pretty reliable connection to all
 
 ## Did the IP address of a site change between Pings?
 There was no change observed to the IP address between each ping for all three websites.
+
+## Using traceroute
+## What was the target server's IP address?
+### Amazon
+18.164.158.208
+
+### Google 
+142.251.211.228
+### Microsoft 
+23.33.17.164
+## How many hops were needed to reach the target?
+### Amazon
+This was a strange case where 44 hops took place and then there was a very long pause. I'm not sure why this is the case, as I'm pretty sure this is an unusually large ammount of hops, especially compared to the other traceroutes done.
+### Google
+12 hops total
+### Microsoft 
+16 hops total
+## Can you identify your ISP from intermediate server DNS names?
+Yes, from all of these traceroutes it is clear that I am using comcast as my ISP, as their domains are most of the intermediate hops.
+## Identify the "Class" of IP address from each major step in the trip 
+### Amazon
+Destination: 18.164.158.208 is class A
+Origin: 192.168.1.1 is class C
+First hop to comcast domain: 69.139.164.134 is also class A. All these comcast jumps are unsurprsingly class A.
+### Google
+Destination: 142.251.211.228 is class B - somewhat surprising that Amazon has class A but not Google.
+Origin: 192.168.1.1 is class C
+Last hop before destination: 216.239.43.231 which is a class C.
+### Microsoft 
+Destination: 23.33.17.164 is a class A
+Origin: 192.168.1.1 is class C
+Last hop before destination: 23.33.17.164 which is eploy.static.akamaitechnologies.com. A class A that I have not heard of.
