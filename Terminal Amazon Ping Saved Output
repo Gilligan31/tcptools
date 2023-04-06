@@ -1,0 +1,63 @@
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ ping www.amazon.com
+PING e15316.dsca.akamaiedge.net (23.33.17.189): 56 data bytes
+64 bytes from 23.33.17.189: icmp_seq=0 ttl=50 time=21.168 ms
+64 bytes from 23.33.17.189: icmp_seq=1 ttl=50 time=27.194 ms
+64 bytes from 23.33.17.189: icmp_seq=2 ttl=50 time=23.697 ms
+64 bytes from 23.33.17.189: icmp_seq=3 ttl=50 time=29.612 ms
+64 bytes from 23.33.17.189: icmp_seq=4 ttl=50 time=36.245 ms
+64 bytes from 23.33.17.189: icmp_seq=5 ttl=50 time=28.348 ms
+64 bytes from 23.33.17.189: icmp_seq=6 ttl=50 time=28.592 ms
+64 bytes from 23.33.17.189: icmp_seq=7 ttl=50 time=24.175 ms
+64 bytes from 23.33.17.189: icmp_seq=8 ttl=50 time=28.229 ms
+^C
+--- e15316.dsca.akamaiedge.net ping statistics ---
+9 packets transmitted, 9 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 21.168/27.473/36.245/4.070 ms
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ ping www.amazon.com
+PING e15316.dsca.akamaiedge.net (23.33.17.189): 56 data bytes
+64 bytes from 23.33.17.189: icmp_seq=0 ttl=50 time=28.713 ms
+64 bytes from 23.33.17.189: icmp_seq=1 ttl=50 time=28.549 ms
+64 bytes from 23.33.17.189: icmp_seq=2 ttl=50 time=27.250 ms
+64 bytes from 23.33.17.189: icmp_seq=3 ttl=50 time=21.570 ms
+64 bytes from 23.33.17.189: icmp_seq=4 ttl=50 time=22.097 ms
+64 bytes from 23.33.17.189: icmp_seq=5 ttl=50 time=27.082 ms
+^C
+--- e15316.dsca.akamaiedge.net ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 21.570/25.877/28.713/2.926 ms
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ ping www.amazon.com
+PING e15316.dsca.akamaiedge.net (23.33.17.189): 56 data bytes
+64 bytes from 23.33.17.189: icmp_seq=0 ttl=50 time=21.252 ms
+64 bytes from 23.33.17.189: icmp_seq=1 ttl=50 time=27.184 ms
+64 bytes from 23.33.17.189: icmp_seq=2 ttl=50 time=27.082 ms
+64 bytes from 23.33.17.189: icmp_seq=3 ttl=50 time=27.050 ms
+64 bytes from 23.33.17.189: icmp_seq=4 ttl=50 time=27.100 ms
+64 bytes from 23.33.17.189: icmp_seq=5 ttl=50 time=27.949 ms
+64 bytes from 23.33.17.189: icmp_seq=6 ttl=50 time=26.970 ms
+^C
+--- e15316.dsca.akamaiedge.net ping statistics ---
+7 packets transmitted, 7 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 21.252/26.370/27.949/2.112 ms
+(base) Drews-MacBook-Pro-2:~ drewgrimstead$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
