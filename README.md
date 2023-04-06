@@ -57,3 +57,9 @@ Last hop before destination: 23.33.17.164 which is eploy.static.akamaitechnologi
 
 ## Extra credit: Using packet-capture tools (2 pts)
 From this exercise I found a DHCP lease time for 90 days on a Mac device (I believe my laptop as I switched onto the network).
+
+## Extra credit: Spy on your opponents (2 pts)
+I was a bit stuck on this one, and didn't end up finding any super revealing information. What I did find however was that I could filter using common ports for servers on 7 days to die to get my game traffic. Port 46900 and 46901 were of interest, and from poking around I was able to see my MAC/IP address communicating to the server with a "Fortinet" domain. This is a cybersecurity firm which is likely affiliated with the platform the server is being hosted on. I could not see any in game communications, but as mentioned in lecture this is almost certainly encrypted.
+
+## Extra credit: Insecure web server (2 pts)
+This exercise was much easier than the last for me. I navigated to http://150.230.36.255/ and entered the credentials: "fake@dne.com" and "reallybadpassword". I then applied a filter ip.addr == 150.230.36.255 so I would only see traffic to this insecure website. In the INFO tab, I saw a POST request, which prompted me to inspect that, as well as the fact that it fell chronologically towards the bottom. This made me assume it was the payload I sent with my credentials. Sure enough, on inspection of the tcp payload, I could see both credentials as shown in my "Wireshark vulnerable credentials" screenshot.
